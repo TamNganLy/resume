@@ -1,0 +1,100 @@
+:root {
+  --primary: #001f3d;
+  --secondary: #045174;
+  --third: #f8dcbf;
+  --forth: #e87a00;
+  --fifth: #fa9939;
+
+  --background: var(--primary);
+  --container: var(--secondary);
+  --text: var(--third);
+  --first-bar: var(--third);
+  --second-bar: var(--forth);
+  --active-star-: var(--third);
+  --inactive-star: var(--forth);
+  --tech-container: var(--third);
+  --tech-text: var(--primary);
+  --break-line: var(--fifth);
+
+  --size-large: 2rem;
+  --size-medium: 1.5rem;
+  --size-small: 1rem;
+
+  --break-small: 5px;
+}
+
+@font-face {
+  font-family: 'Roxborough CF';
+  src: url('./assets/font/roxborough-cf-regular.woff2') format('woff2'),
+       url('./assets/font/roxborough-cf-regular.woff') format('woff');
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body p {
+  font-family: "Sorts Mill Goudy", serif;
+  color: var(--text);
+  padding: var(--break-small);
+  margin: 0;
+  font-size: var(--size-small);
+}
+
+h1 {  
+  font-family: 'Roxborough CF', serif;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-size: var(--size-medium);
+  font-family: 'Roxborough CF', serif;
+}
+
+.main-container {
+  display: flex;
+  padding: 4%;
+  gap: 20px;
+  width: calc(100vw-(100vw*0.08));
+  height: calc(100vh-(100vh*0.08));
+  justify-content: center;
+}
+
+.profile-container {
+  flex: 1;
+  background-color: var(--container);
+  padding: 40px;
+}
+
+.detail-container {
+  flex: 2;
+  background-color: var(--container);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.profile > h1 {
+  margin: 15px 0px 0px 0px;
+  font-size: var(--size-large);
+}
+
+.profile > img {
+  border-radius: 50%;
+}
+
+.profile-box {
+  border-top: 2px solid var(--break-line);
+  padding: 20px 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: var(--break-small);
+}
