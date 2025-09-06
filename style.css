@@ -5,8 +5,8 @@
   --forth: #e87a00;
   --fifth: #fa9939;
 
-  --background: var(--primary);
-  --container: var(--secondary);
+  --background: var(--secondary);
+  --container: var(--primary);
   --text: var(--third);
   --first-bar: var(--third);
   --second-bar: var(--forth);
@@ -16,9 +16,10 @@
   --tech-text: var(--primary);
   --break-line: var(--fifth);
 
-  --size-large: 2rem;
-  --size-medium: 1.5rem;
-  --size-small: 1.2rem;
+  --size-large: 1.5rem;
+  --size-medium: 1.3rem;
+  --size-medium-small: 1.15rem;
+  --size-small: 1rem;
 
   --break-small: 5px;
 
@@ -54,9 +55,15 @@ h2 {
   font-family: var(--title-font);
 }
 
+a {
+  color: var(--text);
+  text-decoration: none;
+  font-family: var(--text-font);
+}
+
 .main-container {
   display: flex;
-  padding: 2%;
+  padding: 2% 5%;
   gap: 20px;
   width: calc(100vw-(100vw*0.08));
   height: calc(100vh-(100vh*0.08));
@@ -68,7 +75,7 @@ h2 {
 .profile-container {
   flex: 1;
   background-color: var(--container);
-  padding: 30px 40px 10px 40px;
+  padding: 40px 40px 10px 40px;
 }
 
 .profile {
@@ -94,7 +101,7 @@ h2 {
 
 .profile-box {
   border-top: 2px solid var(--break-line);
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .contact-item {
@@ -104,10 +111,8 @@ h2 {
   gap: 10px;
 }
 
-.contact-item>a{
-  color: var(--text);
-  text-decoration: none;
-  font-family: var(--text-font);
+
+.contact-item > a{
   font-size: var(--size-small);
 }
 
@@ -161,7 +166,7 @@ h2 {
   padding: 40px;
 }
 
-.detail-item {
+.detail-items {
   position: relative;
 }
 
@@ -172,4 +177,54 @@ h2 {
   background-color: var(--color);
   left: -20px;
   border-radius: 10px;
+}
+
+.detail-item {
+  list-style: none;
+}
+
+.detail-items > ul {
+  padding-left: 0;
+}
+
+.item-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-title p {
+  font-size: var(--size-medium-small);
+  padding-bottom: 5px;
+}
+
+.item-title a {
+  font-size: var(--size-medium-small);
+  color: var(--second-bar);
+}
+
+.detail-item > ul {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.list {
+  font-family: var(--text-font);
+  font-size: var(--size-small);
+  padding-bottom: var(--break-small);
+}
+
+.links p {
+  display: inline;
+}
+
+.link {
+  color: var(--second-bar);
+}
+
+.list p {
+  display: inline;
+  background-color: var(--tech-container);
+  color: var(--tech-text);
+  border-radius: 20px;
+  padding: 2px 10px;
 }
