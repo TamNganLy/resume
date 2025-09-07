@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
@@ -19,394 +25,456 @@
 
   <body>
     <div class="main-container">
-      <!-- Profile -->
-      <div class="profile-container">
-        <div class="profile">
-          <img
-            src="./assets/images/profilePic.jpg"
-            alt="profile picture"
-            height="175"
-          />
-          <h1>TAM LY</h1>
-          <p>San Francisco Bay Area | Web Developer</p>
-        </div>
-        <!-- Contact Infomation -->
-        <div class="profile-box">
-          <h2>Contact Infomation</h2>
-          <div class="contact-item">
-            <img
-              src="./assets/images/gmailLogo.png"
-              alt="gmail logo"
-              height="30"
-            />
-            <p>tamly1810@gmail.com</p>
-          </div>
-          <div class="contact-item">
-            <img
-              src="./assets/images/portfolioLogo1.png"
-              alt="Portfolio logo"
-              height="30"
-            />
-            <a href="https://tamnganly.github.io/Portforlio/"
-              >tamnganly.github.io/Portforlio/</a
-            >
-          </div>
-          <div class="contact-item">
-            <img
-              src="./assets/images/linkedinLogo.png"
-              alt="LinkedIn logo"
-              height="30"
-            />
-            <a href="https://www.linkedin.com/in/tam-ngan-ly/"
-              >linkedin.com/in/tam-ngan-ly</a
-            >
-          </div>
-          <div class="contact-item">
-            <img
-              src="./assets/images/githubIcon.png"
-              alt="Github logo"
-              height="30"
-            />
-            <a href="https://github.com/TamNganLy">github.com/TamNganLy</a>
-          </div>
-        </div>
-        <!-- Education -->
-        <div class="profile-box">
-          <h2>Education</h2>
-          <div class="education-item">
-            <img
-              src="./assets/images/SJSU-logo.png"
-              alt="gmail logo"
-              height="30"
-            />
-            <div>
-              <p>
-                <strong>San Jose State University <i> (2022-2025)</i></strong>
-              </p>
-              <p>Bachelor’s degree in Computer Science</p>
-              <p>GPA: 3.9/4.0</p>
-            </div>
-          </div>
-        </div>
-        <!-- Technical Skills -->
-        <div class="profile-box">
-          <h2>Technical Skills</h2>
-          <div class="tech-skill-container">
-            <div class="tech-skill-item">
+      <div class="row g-3">
+        <!-- Profile -->
+        <div class="col-xxl-3 col-xl-4 col-lg-5">
+          <div class="profile-container">
+            <div class="profile">
               <img
-                src="./assets/images/ReactIcon1.png"
-                alt="React"
-                height="40"
+                src="./assets/images/profilePic.jpg"
+                alt="profile picture"
+                height="175"
               />
+              <h1>TAM LY</h1>
+              <p>San Francisco Bay Area | Web Developer</p>
             </div>
-            <div class="tech-skill-item">
-              <img
-                src="./assets/images/pythonIcon.png"
-                alt="Python"
-                height="40"
-              />
-            </div>
-            <div class="tech-skill-item">
-              <img src="./assets/images/javaIcon.png" alt="Java" height="40" />
-            </div>
-            <div class="tech-skill-item">
-              <img
-                src="./assets/images/nextjsIcon.png"
-                alt="Next.js"
-                height="40"
-              />
-            </div>
-            <div class="tech-skill-item">
-              <img src="./assets/images/HTML5Icon.png" alt="HTML" height="40" />
-            </div>
-            <div class="tech-skill-item">
-              <img src="./assets/images/CSSIcon.png" alt="CSS" height="40" />
-            </div>
-            <div class="tech-skill-item">
-              <img
-                src="./assets/images/javascriptIcon.png"
-                alt="JavaScript"
-                height="40"
-              />
-            </div>
-            <div class="tech-skill-item">
-              <img
-                src="./assets/images/MySQLIcon.png"
-                alt="MySQL"
-                height="40"
-              />
-            </div>
-            <div class="tech-skill-item">
-              <img
-                src="./assets/images/postgresqlIcon.png"
-                alt="PostgreSQL"
-                height="40"
-              />
-            </div>
-            <div class="tech-skill-item">
-              <img src="./assets/images/C++Icon.png" alt="C++" height="40" />
-            </div>
-            <div class="tech-skill-item">
-              <img src="./assets/images/VBAIcon.png" alt="VBA" height="40" />
-            </div>
-          </div>
-        </div>
-        <!-- Soft Skills -->
-        <div class="profile-box">
-          <h2>Soft Skills</h2>
-          <div class="skill-item">
-            <p>Problem Solving</p>
-            <div>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star inactive-star">★</span>
-            </div>
-          </div>
-          <div class="skill-item">
-            <p>Team Work</p>
-            <div>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star inactive-star">★</span>
-            </div>
-          </div>
-          <div class="skill-item">
-            <p>Time Management</p>
-            <div>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-              <span class="star active-star">★</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Detail -->
-      <div class="detail-container">
-        <!-- Experience -->
-        <div class="detail-items">
-          <div class="bar" style="--color: var(--first-bar)"></div>
-          <h2>Experience</h2>
-          <ul>
-            <li class="detail-item">
-              <div class="item-title">
-                <p>
-                  <strong
-                    >Inventory System Developer (20 hrs/week) | MPCM, Inc | San
-                    Jose, CA</strong
-                  >
-                </p>
-                <p><i>August 2021 - Present</i></p>
+            <!-- Contact Infomation -->
+            <div class="profile-box">
+              <h2>Contact Infomation</h2>
+              <div class="contact-item">
+                <img
+                  src="./assets/images/gmailLogo.png"
+                  alt="gmail logo"
+                  height="30"
+                />
+                <p>tamly1810@gmail.com</p>
               </div>
-              <ul>
-                <li class="list">
-                  Develop internal tools to automate inventory tracking and
-                  employee timecard management using MS Access, VBA, and Python.
-                </li>
-                <li class="list">
-                  Streamline manual inventory tracking processes, saving
-                  <strong>8–10</strong> hours of work weekly and improving data
-                  accuracy.
-                </li>
-                <li class="list">
-                  Provide technical support and training for inventory and
-                  shipping operations, minimizing downtime.
-                </li>
-                <li class="list">
-                  Create procedures and documentation for MS Access programs,
-                  including Inventory Tracking, Serial Tracking, and Employee
-                  Work Hours Tracking.
-                </li>
-              </ul>
-            </li>
-            <li class="detail-item">
-              <div class="item-title">
-                <p>
-                  <strong
-                    >Opening Energy Dashboard (20 hrs/week) | CTI-CodeDay SWE
-                    Micro-Internship |
-                  </strong>
-                  <a
-                    href="https://github.com/OpenEnergyDashboard/OED/pull/1080"
-                  >
-                    <strong>Pull Request</strong>
-                  </a>
-                </p>
-                <p><i>October 2023</i></p>
+              <div class="contact-item">
+                <img
+                  src="./assets/images/portfolioLogo1.png"
+                  alt="Portfolio logo"
+                  height="30"
+                />
+                <a href="https://tamnganly.github.io/Portforlio/"
+                  >tamnganly.github.io/Portforlio/</a
+                >
               </div>
-              <ul>
-                <li class="list">
-                  Contributed to the
-                  <strong>Open Energy Dashboard</strong> open-source project by
-                  writing unit tests in JavaScript and Node.js.
-                </li>
-                <li class="list">
-                  Collaborated with a remote development team using GitHub for
-                  pull requests, code reviews, and issue tracking.
-                </li>
-                <li class="list">
-                  Gained hands-on experience with best practices in test
-                  coverage, consistent coding style, and open-source
-                  contribution.
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Personal Projects -->
-        <div class="detail-items">
-          <div class="bar" style="--color: var(--second-bar)"></div>
-          <h2>Personal Projects</h2>
-          <ul>
-            <li class="detail-item">  
-              <div class="item-title">
-                <div class="links">
-                  <p><strong>SOP Website | </strong></p>
-                  <a href="https://github.com/TamNganLy/sop-web-app">
-                    <p class="link"><strong>Github</strong></p>
-                  </a>
+              <div class="contact-item">
+                <img
+                  src="./assets/images/linkedinLogo.png"
+                  alt="LinkedIn logo"
+                  height="30"
+                />
+                <a href="https://www.linkedin.com/in/tam-ngan-ly/"
+                  >linkedin.com/in/tam-ngan-ly</a
+                >
+              </div>
+              <div class="contact-item">
+                <img
+                  src="./assets/images/githubIcon.png"
+                  alt="Github logo"
+                  height="30"
+                />
+                <a href="https://github.com/TamNganLy">github.com/TamNganLy</a>
+              </div>
+            </div>
+            <!-- Education -->
+            <div class="profile-box">
+              <h2>Education</h2>
+              <div class="education-item">
+                <img
+                  src="./assets/images/SJSU-logo.png"
+                  alt="gmail logo"
+                  height="30"
+                />
+                <div>
+                  <p>
+                    <strong
+                      >San Jose State University <i> (2022-2025)</i></strong
+                    >
+                  </p>
+                  <p>Bachelor’s degree in Computer Science</p>
+                  <p>GPA: 3.9/4.0</p>
                 </div>
-                <p><i>July 2025</i></p>
               </div>
-              <ul>
-                <li class="list">
-                  Built an internal SOP management platform to streamline operations for a logistics company.
-                </li>
-                <li class="list">
-                  Designed a dynamic interface for creating, viewing, and updating standard operating procedures.
-                </li>
-                <li class="list">
-                  Technical Skills: 
-                  <p>React</p>
-                  <p>Next.js</p>
-                  <p>CSS</p>
-                </li>
-              </ul>
-            </li>
-
-            <li class="detail-item">
-              <div class="item-title">
-                <div class="links">
-                  <p><strong>KeyLink | </strong></p>
-                  <a href="https://github.com/meow-developer/CS-160">
-                    <p class="link"><strong>Github</strong></p>
-                  </a>
+            </div>
+            <!-- Technical Skills -->
+            <div class="profile-box">
+              <h2>Technical Skills</h2>
+              <div class="tech-skill-container">
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/ReactIcon1.png"
+                    alt="React"
+                    height="40"
+                  />
                 </div>
-                <p><i>May 2024</i></p>
-              </div>
-              <ul>
-                <li class="list">
-                  Developed a web app that generates mind maps and summaries
-                  from uploaded articles to help users understand content
-                  faster.
-                </li>
-                <li class="list">
-                  Implemented a comparison feature to highlight similarities and
-                  differences between articles.
-                </li>
-                <li class="list">
-                  Technical Skills: 
-                  <p>React</p>
-                  <p>Node.js</p>
-                  <p>JavaScript</p>
-                  <p>TypeScript</p>
-                </li>
-              </ul>
-            </li>
-
-            <li class="detail-item">
-              <div class="item-title">
-                <div class="links">
-                  <p><strong>PDF to Excel | </strong></p>
-                  <a href="https://github.com/TamNganLy/pdf_to_excel">
-                    <p class="link"><strong>Github</strong></p>
-                  </a>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/pythonIcon.png"
+                    alt="Python"
+                    height="40"
+                  />
                 </div>
-                <p><i>September 2023</i></p>
-              </div>
-              <ul>
-                <li class="list">
-                  Created a program that extracts structured data from
-                  inconsistent, multi-page PDF documents and exports it into
-                  formatted Excel sheets.
-                </li>
-                <li class="list">
-                  Used Python libraries such as PyPDF2 and pandas for file
-                  parsing and transformation.
-                </li>
-                <li class="list">Technical Skills: <strong>Python</strong></li>
-                <li class="list">
-                  Technical Skills: <p>Python</p>
-                </li>
-              </ul>
-            </li>
-
-            <li class="detail-item">
-              <div class="item-title">
-                <div class="links">
-                  <p><strong>Youtube Clone | </strong></p>
-                  <a href="https://github.com/TamNganLy/TamLy-YouTube-Clone">
-                    <p class="link"><strong>Github</strong></p>
-                  </a>
-                  <p><strong> | </strong></p>
-                  <a href="https://tamnganly.github.io/TamLy-YouTube-Clone/">
-                    <p class="link"><strong>Website</strong></p>
-                  </a>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/javaIcon.png"
+                    alt="Java"
+                    height="40"
+                  />
                 </div>
-                <p><i>June 2023</i></p>
-              </div>
-
-              <ul>
-                <li class="list">
-                  Recreated the YouTube homepage layout to practice responsive
-                  web design.
-                </li>
-                <li class="list">
-                  Implemented navigation bar, sidebar, and video grid using
-                  semantic HTML and CSS.
-                </li>
-                <li class="list">
-                  Technical Skills: 
-                  <p>HTML</p>
-                  <p>CSS</p>
-                </li>
-              </ul>
-            </li>
-
-            <li class="detail-item">
-              <div class="item-title">
-                <div class="links">
-                  <p><strong>Mancala Game | </strong></p>
-                  <a href="https://github.com/TamNganLy/Mancala-Game">
-                    <p class="link"><strong>Github</strong></p>
-                  </a>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/nextjsIcon.png"
+                    alt="Next.js"
+                    height="40"
+                  />
                 </div>
-                <p><i>December 2022</i></p>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/HTML5Icon.png"
+                    alt="HTML"
+                    height="40"
+                  />
+                </div>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/CSSIcon.png"
+                    alt="CSS"
+                    height="40"
+                  />
+                </div>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/javascriptIcon.png"
+                    alt="JavaScript"
+                    height="40"
+                  />
+                </div>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/MySQLIcon.png"
+                    alt="MySQL"
+                    height="40"
+                  />
+                </div>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/postgresqlIcon.png"
+                    alt="PostgreSQL"
+                    height="40"
+                  />
+                </div>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/C++Icon.png"
+                    alt="C++"
+                    height="40"
+                  />
+                </div>
+                <div class="tech-skill-item">
+                  <img
+                    src="./assets/images/VBAIcon.png"
+                    alt="VBA"
+                    height="40"
+                  />
+                </div>
               </div>
+            </div>
+            <!-- Soft Skills -->
+            <div class="profile-box">
+              <h2>Soft Skills</h2>
+              <div class="skill-item">
+                <p>Problem Solving</p>
+                <div>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star inactive-star">★</span>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p>Team Work</p>
+                <div>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star inactive-star">★</span>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p>Time Management</p>
+                <div>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                  <span class="star active-star">★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detail -->
+        <div class="col-xxl-9 col-xl-8 col-lg-7">
+          <div class="detail-container">
+            <!-- Experience -->
+            <div class="detail-items">
+              <div class="bar" style="--color: var(--first-bar)"></div>
+              <h2>Experience</h2>
               <ul>
-                <li class="list">
-                  Implemented a digital version of the classic count-and-capture
-                  game with custom themes and animations.
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-xxl-9">
+                      <p>
+                        <strong>
+                          Inventory System Developer | MPCM, Inc | San Jose, CA
+                        </strong>
+                      </p>
+                    </div>
+                    <div class="col-xxl-3 time-experience">
+                      <p><i>August 2021 - Present</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Develop internal tools to automate inventory tracking and
+                      employee timecard management using MS Access, VBA, and
+                      Python.
+                    </li>
+                    <li class="list">
+                      Streamline manual inventory tracking processes, saving
+                      <strong>8–10</strong> hours of work weekly and improving
+                      data accuracy.
+                    </li>
+                    <li class="list">
+                      Provide technical support and training for inventory and
+                      shipping operations, minimizing downtime.
+                    </li>
+                    <li class="list">
+                      Create procedures and documentation for MS Access
+                      programs, including Inventory Tracking, Serial Tracking,
+                      and Employee Work Hours Tracking.
+                    </li>
+                  </ul>
                 </li>
-                <li class="list">
-                  Designed a user-friendly GUI with player actions, valid move
-                  rules, and win conditions.
-                </li>
-                <li class="list">
-                  Technical Skills: 
-                  <p>Java</p>
-                  <p>Java GUI</p>
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-xxl-9">
+                      <p>
+                        <strong>
+                          Opening Energy Dashboard | CTI-CodeDay SWE
+                          Micro-Internship |
+                        </strong>
+                        <a
+                          href="https://github.com/OpenEnergyDashboard/OED/pull/1080"
+                        >
+                          <strong>Pull Request</strong>
+                        </a>
+                      </p>
+                    </div>
+                    <div class="col-xxl-3 time-experience">
+                      <p><i>October 2023</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Contributed to the
+                      <strong>Open Energy Dashboard</strong> open-source project
+                      by writing unit tests in JavaScript and Node.js.
+                    </li>
+                    <li class="list">
+                      Collaborated with a remote development team using GitHub
+                      for pull requests, code reviews, and issue tracking.
+                    </li>
+                    <li class="list">
+                      Gained hands-on experience with best practices in test
+                      coverage, consistent coding style, and open-source
+                      contribution.
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+
+            <br />
+
+            <!-- Personal Projects -->
+            <div class="detail-items">
+              <div class="bar" style="--color: var(--second-bar)"></div>
+              <h2>Personal Projects</h2>
+              <ul>
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-sm-8">
+                      <p>
+                        <strong>SOP Website | </strong>
+                        <a href="https://github.com/TamNganLy/sop-web-app">
+                          <strong>Github</strong>
+                        </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-4 time-project">
+                      <p><i>July 2025</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Built an internal SOP management platform to streamline
+                      operations for a logistics company.
+                    </li>
+                    <li class="list">
+                      Designed a dynamic interface for creating, viewing, and
+                      updating standard operating procedures.
+                    </li>
+                    <li class="list">
+                      Technical Skills:
+                      <p>React</p>
+                      <p>Next.js</p>
+                      <p>CSS</p>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-sm-8">
+                      <p>
+                        <strong>KeyLink | </strong>
+                        <a href="https://github.com/meow-developer/CS-160">
+                          <strong>Github</strong>
+                        </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-4 time-project">
+                      <p><i>May 2024</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Developed a web app that generates mind maps and summaries
+                      from uploaded articles to help users understand content
+                      faster.
+                    </li>
+                    <li class="list">
+                      Implemented a comparison feature to highlight similarities
+                      and differences between articles.
+                    </li>
+                    <li class="list">
+                      Technical Skills:
+                      <p>React</p>
+                      <p>Node.js</p>
+                      <p>JavaScript</p>
+                      <p>TypeScript</p>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-sm-8">
+                      <p>
+                        <strong>PDF to Excel | </strong>
+                        <a href="https://github.com/TamNganLy/pdf_to_excel">
+                          <strong>Github</strong>
+                        </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-4 time-project">
+                      <p><i>September 2023</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Created a program that extracts structured data from
+                      inconsistent, multi-page PDF documents and exports it into
+                      formatted Excel sheets.
+                    </li>
+                    <li class="list">
+                      Used Python libraries such as PyPDF2 and pandas for file
+                      parsing and transformation.
+                    </li>
+                    <li class="list">
+                      Technical Skills: <strong>Python</strong>
+                    </li>
+                    <li class="list">
+                      Technical Skills:
+                      <p>Python</p>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-sm-8">
+                      <p>
+                        <strong>Youtube Clone | </strong>
+                        <a href="https://github.com/TamNganLy/TamLy-YouTube-Clone">
+                          <strong>Github</strong>
+                        </a>
+                        <strong>|</strong>
+                        <a href="https://tamnganly.github.io/TamLy-YouTube-Clone/">
+                          <strong>Website</strong>
+                        </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-4 time-project">
+                      <p><i>June 2023</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Recreated the YouTube homepage layout to practice
+                      responsive web design.
+                    </li>
+                    <li class="list">
+                      Implemented navigation bar, sidebar, and video grid using
+                      semantic HTML and CSS.
+                    </li>
+                    <li class="list">
+                      Technical Skills:
+                      <p>HTML</p>
+                      <p>CSS</p>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="detail-item">
+                  <div class="row item-title">
+                    <div class="col-sm-8">
+                      <p>
+                        <strong>Mancala Game | </strong>
+                        <a href="https://github.com/TamNganLy/Mancala-Game">
+                          <strong>Github</strong>
+                        </a>
+                      </p>
+                    </div>
+                    <div class="col-sm-4 time-project">
+                      <p><i>December 2022</i></p>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="list">
+                      Implemented a digital version of the classic
+                      count-and-capture game with custom themes and animations.
+                    </li>
+                    <li class="list">
+                      Designed a user-friendly GUI with player actions, valid
+                      move rules, and win conditions.
+                    </li>
+                    <li class="list">
+                      Technical Skills:
+                      <p>Java</p>
+                      <p>Java GUI</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
