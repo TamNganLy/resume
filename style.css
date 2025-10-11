@@ -10,8 +10,8 @@
   --text: var(--third);
   --first-bar: var(--third);
   --second-bar: var(--forth);
-  --active-star-: var(--third);
-  --inactive-star: var(--forth);
+  --active-star-: var(--forth);
+  --inactive-star: var(--third);
   --tech-container: var(--third);
   --tech-text: var(--primary);
   --break-line: var(--fifth);
